@@ -1,0 +1,43 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>SDETMasterUseCaseP2</groupId>
+  <artifactId>MUCP2</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+    <!-- RestAssured -->
+    <dependency>
+        <groupId>io.rest-assured</groupId>
+        <artifactId>rest-assured</artifactId>
+        <version>4.3.3</version> <!-- Replace with the desired version -->
+    </dependency>
+
+    <!-- Cucumber -->
+    <dependency>
+        <groupId>io.cucumber</groupId>
+        <artifactId>cucumber-java</artifactId>
+        <version>7.0.0</version> <!-- Use the appropriate version -->
+        <scope>test</scope>
+    </dependency>
+    <dependency>
+        <groupId>io.cucumber</groupId>
+        <artifactId>cucumber-testng</artifactId>
+        <version>7.0.0</version> <!-- Replace with the desired version -->
+    </dependency>
+
+    <!-- TestNG -->
+    <dependency>
+        <groupId>org.testng</groupId>
+        <artifactId>testng</artifactId>
+        <version>7.4.0</version> <!-- Replace with the desired version -->
+    </dependency>
+
+    <!-- Surefire (for TestNG integration) -->
+    <dependency>
+        <groupId>org.apache.maven.surefire</groupId>
+        <artifactId>surefire-testng</artifactId>
+        <version>3.0.0-M5</version> <!-- Replace with the desired version -->
+    </dependency>
+</dependencies>
+
+</project>
