@@ -10,14 +10,6 @@ pipeline {
             }
         }
         
-        stage('Build') {
-            steps {
-                dir('MUCP2') { // Specify the directory containing pom.xml
-                    bat 'mvn clean install'
-                }
-            }
-        }
-        
         stage('Test') {
             steps {
                 dir('MUCP2') { // Specify the directory containing pom.xml
